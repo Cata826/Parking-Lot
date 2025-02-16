@@ -3,6 +3,16 @@
 ## Overview
 The Smart Parking System is an innovative project utilizing Arduino and sensors to manage a parking lot barrier. This system automates the opening and closing of a barrier, allowing or restricting vehicle access based on space availability. It integrates hardware and software solutions to improve parking management and reduce environmental impact by minimizing the time drivers spend searching for parking.
 
+## System Images
+
+### Parking Barrier Entry
+![Parking Barrier Entry](a1.png "Parking Barrier Entry")
+*This image shows the ultrasonic sensor setup at the parking entry.*
+
+### Parking Barrier Mechanism
+![Parking Barrier Mechanism](a2.png "Parking Barrier Mechanism")
+*Image of the barrier mechanism controlled by the servo motor.*
+
 ## Features
 - **Ultrasonic Sensors (HC-SR04)**: Detects the presence of a vehicle and measures the distance to the nearest object, determining barrier control.
 - **Servo Motor**: Manages the movement of the barrier arm, allowing for precise control over the barrier's position.
@@ -41,23 +51,3 @@ To set up your Smart Parking System, follow these steps:
    - Open the Processing IDE and load the graphical interface sketch.
    - Run the application to start monitoring the parking lot.
 
-## Usage
-- The system automatically detects when a vehicle approaches and manages the barrier based on space availability.
-- The LCD and Processing interface will update in real time to reflect changes in parking occupancy and barrier status.
-
-## Contributing
-Contributions to the Smart Parking System are welcome. Please feel free to fork the repository, make changes, and submit pull requests.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
-
-## Acknowledgments
-- Arduino Community
-- Processing Community
-- Everyone who has contributed to testing and refining the system.
-
-## Bibliography
-- [Arduino LCD Displays](https://docs.arduino.cc/learn/electronics/lcd-displays)
-- [Arduino Uno Information](https://en.wikipedia.org/wiki/Arduino_Uno)
-- [How Ultrasonic Sensors Work](https://maxbotix.com/blogs/blog/how-ultrasonic-sensors-work)
-- [Servo Motors on Arduino](https://docs.arduino.cc/learn/electronics/servo-motors)
